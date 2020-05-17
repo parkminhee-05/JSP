@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+	font-family:"바탕";
+	background-color:white;
+}
+
+header{
+	border:pink 3px double; height:20%; position:relative;
+}
+
+#content{
+	margin:10px 9px 50px; height:65%;
+}
+
+#areaMain{/*오른쪽 배치*/
+	position:relative; float:right; padding:10px 0;
+	border:purple 3px solid; width:75%
+}
+
+#areaSub{/*왼쪽 배치*/
+	border:green 3px solid; width:20%; float:left;
+}
+
+footer{
+	border:black 3px dashed; clear:both; height:30%;
+}
